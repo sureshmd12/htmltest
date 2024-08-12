@@ -1,3 +1,3 @@
 task list 
 
-First stage version for training this project.
+Second stage version for training this project.
