@@ -1,0 +1,19 @@
+.button-primary {
+    font-size: var(--button-font-size-md);
+    color: var(--font-color-black);
+    background-color: var(--background-color-yellow);
+    padding: 14px 32px;
+    font-style: normal;
+    font-weight: var(--font-weight-lg);
+    letter-spacing: 1.8px;
+    text-transform: uppercase;
+    border-radius: 100px;
+    border: none;
+    font-family: 'Afacad';
+    line-height: normal;
+}
+@media screen and (min-screen: 1200px) {
+    .button-primary {
+        font-size: var(--button-font-size-xs);
+    }
+}

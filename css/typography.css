@@ -1,0 +1,58 @@
+:root {
+    /* Font Colors */
+    --font-color-white: #FFF;
+    --font-color-black: #090707;
+    --font-color-gray: #757575;
+
+    /* Background Colors */
+    --background-color-white-smoke: #F5F5F5;
+    --background-color-white: #FBFBFB;
+    --background-color-black: #0C0C0C;
+    --background-color-yellow: #F90;
+
+    /* Heading Font Sizes */
+    --heading-font-size-2xl: 64px;
+    --heading-font-size-xl: 48px;
+    --heading-font-size-lg: 44px;
+    --heading-font-size-md: 32px;
+    --heading-font-size-sm: 26px;
+    --heading-font-size-xs: 24px;
+
+    /* Paragraph Font Sizes */
+    --paragraph-font-size-xl: 32px;
+    --paragraph-font-size-lg: 24px;
+    --paragraph-font-size-md: 22px;
+    --paragraph-font-size-sm: 20px;
+    --paragraph-font-size-xs: 18px;
+
+    /* Menu Font Sizes */
+    --menu-font-size-md: 24px;
+    --menu-font-size-sm: 18px;
+
+    /* Button Font Sizes */
+    --button-font-size-sm: 18px;
+    --button-font-size-xs: 16px;
+
+    /** Font Weight Sizes */
+    --font-weight-lg: 700;
+    --font-weight-md: 600;
+    --font-weight-sm: 400;
+
+    /* Margin Size */
+    /* Margin Bottom Size */
+    --margin-bottom-xl: 56px;
+    --margin-bottom-lg: 40px;
+    --margin-bottom-md: 32px;
+    --margin-bottom-sm: 24px;
+    --margin-bottom-xs: 16px;
+
+    /* Padding Desktop Size */
+    --padding-desktop-y-lg: 128px 0;
+    --padding-desktop-y-md: 80px 0;
+    --padding-desktop-y-sm: 40px 0;
+
+    /* Padding Mobile Size */
+    --padding-mobile-y-lg: 80px 24px;
+    --padding-mobile-y-md: 64px 24px;
+    --padding-mobile-y-sm: 40px 24px;
+}

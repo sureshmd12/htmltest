@@ -1,0 +1,28 @@
+.third-section {
+    background-color: var(--background-color-white);
+}
+.third-section .container {
+    padding: var(--padding-mobile-y-sm);
+}
+.third-section img {
+    display: block;
+    margin-bottom: var(--margin-bottom-sm);
+    max-width: 182px;
+}
+.third-section .paragraph {
+    font-size: var(--paragraph-font-size-xs);
+    margin-bottom: var(--margin-bottom-sm);
+}
+@media screen and (min-width: 1200px) {
+    .third-section .container {
+        padding: var(--padding-desktop-y-md);
+    }
+    .third-section img {
+        margin-bottom: var(--margin-bottom-md);
+        max-width: 283px;
+    }
+    .third-section .paragraph {
+        font-size: var(--heading-font-size-md);
+        margin-bottom: var(--margin-bottom-md);
+    }   
+}

@@ -1,0 +1,52 @@
+.banner {
+    background-color: var(--background-black-color);
+}
+.banner .container {
+    padding: 56px 24px;
+}
+.banner {
+    background-color: var(--background-color-black);
+    position: relative;
+    display: flex;
+    align-items: center;
+    overflow: hidden;
+}
+.myCanvas {
+    position: absolute;
+    top: 0;
+}
+.banner .heading {
+    color: var(--font-color-white);
+    margin-bottom: var(--margin-bottom-xs);
+    font-size: var(--heading-font-size-lg);
+}
+.banner .paragraph {
+    font-size: var(--paragraph-font-size-xs);
+    color: var(--font-color-gray);
+    margin-bottom: var(--margin-bottom-xs);
+    line-height: normal;
+    
+}
+.banner .container {
+    z-index: 1;
+    position: relative;
+}
+@media screen and (min-width: 1200px) {
+    .banner {
+        height: 100vh;
+    }
+    .banner .heading {
+        color: var(--font-color-white);
+        margin-bottom: var(--margin-bottom-md);
+        font-size: var(--heading-font-size-2xl);
+    }
+    .banner .container {
+        padding: 80px 0px;
+    }
+    .banner .container .item .paragraph {
+        width: 50%;
+        font-size: var(--paragraph-font-size-lg);
+        margin-bottom: var(--margin-bottom-md);
+           
+    }
+}
